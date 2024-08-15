@@ -28,5 +28,5 @@ ebitenで作ったゲームをiOS用にビルドして実機で動かせるよ�
 プロジェクトルートで下記を実行
 
 ```shlel
-$ go run github.com/hajimehoshi/ebiten/v2/cmd/ebitenmobile bind -target ios -o ./mobile/ios/Mobile.xcframework ./mobile
+$ ebitenmobile bind -target ios -o ./mobile/ios/Mobile.xcframework ./mobile
 ```
