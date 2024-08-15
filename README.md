@@ -22,3 +22,11 @@ ebitenで作ったゲームをiOS用にビルドして実機で動かせるよ�
 | game/ | 本体のプログラムを格納する |
 | mobile/ | モバイル用に本体プログラムを呼び出す | 
 | main.go | PC用に本体プログラムを呼び出す | 
+
+## iOSでのビルド
+
+プロジェクトルートで下記を実行
+
+```shlel
+$ go run github.com/hajimehoshi/ebiten/v2/cmd/ebitenmobile bind -target ios -o ./mobile/ios/Mobile.xcframework ./mobile
+```
